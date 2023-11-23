@@ -13,9 +13,9 @@ body {
   font-family: sans-serif;
 }
 
-.calculator {
+.calculator, form {
   max-width: 400px;
-  background-color: orange;
+  background-color: gray;
   border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -34,13 +34,14 @@ input {
   margin-bottom: 10px;
 }
 
-button {
-  width: 49%;
-  height: 100px;
+.button {
+  width: 80px;
+  height: 80px;
   border: none;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 40px;
   margin-top: 10px;
+  background-color: orange;
 }
 
 .equal {
@@ -50,7 +51,7 @@ button {
 
 .deleteall {
   color: crimson;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 p {
@@ -61,4 +62,8 @@ p {
   padding: 20px;
   font-size: 50px;
   overflow: auto;
+}
+
+.numbers {
+  font-size: 40px;
 }/*# sourceMappingURL=styles.css.map */
