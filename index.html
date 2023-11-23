@@ -1,37 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>menu</title>
     <link rel="stylesheet" href="./sass/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-
 <body>
-    <div class="calculator">
-        <form  name="form__calculator">
-            <input type="text" name="screen">
-            <!-- <p id="result"></p> -->
-            <input value="*"  type="button" id="symbol-*" class=" button numbers" onclick="form__calculator.screen.value +='*'"></input>
-            <input value="/"  type="button" id="symbol-/" class=" button numbers" onclick="form__calculator.screen.value +='/'"></input>
-            <input value="+"  type="button" id="symbol-+" class=" button numbers" onclick="form__calculator.screen.value +='+'"></input>
-            <input value="-"  type="button" id="symbol--" class=" button numbers" onclick="form__calculator.screen.value +='-'"></input>
-            <input value="1"  type="button" id="number-1" class=" button numbers" onclick="form__calculator.screen.value +='1'"></input>
-            <input value="2"  type="button" id="number-2" class=" button numbers" onclick="form__calculator.screen.value +='2'"></input>
-            <input value="3"  type="button" id="number-3" class=" button numbers" onclick="form__calculator.screen.value +='3'"></input>
-            <input class="button numbers" type="button" value="=" onclick="form__calculator.screen.value = eval(form__calculator.screen.value) ">
-            <input value="4"  type="button" id="number-4" class=" button numbers" onclick="form__calculator.screen.value += '4'"></input>
-            <input value="5"  type="button" id="number-5" class=" button numbers" onclick="form__calculator.screen.value += '5'"></input>
-            <input value="6"  type="button" id="number-6" class=" button numbers" onclick="form__calculator.screen.value += '6'"></input>
-            <input value="C"  type="button" onclick="form__calculator.screen.value = ' ' " class="button deleteall"></input>
-            <input value="7"  type="button" id="number-7" class=" button numbers" onclick="form__calculator.screen.value += '7'"></input>
-            <input value="8"  type="button" id="number-8" class=" button numbers" onclick="form__calculator.screen.value += '8'"></input>
-            <input value="9"  type="button" id="number-9" class=" button numbers" onclick="form__calculator.screen.value += '9'"></input>
-            <input value="0"  type="button" id="number-0" class=" button numbers" onclick="form__calculator.screen.value += '0'"></input>
-        </form>
+    <div class="container d-flex align-items-center justify-content-center flex-column">
+        <a class="btn btn-primary m-2" href="./html/index1.html">Calculator 1</a>
+        <a class="btn btn-primary m-2" href="./html/index2.html">Tickets</a>
+        <a class="btn btn-primary m-2" href="./html/index3.html">Calculator 2</a>
     </div>
-    <script src="./main.js"></script>
 </body>
-
 </html>
